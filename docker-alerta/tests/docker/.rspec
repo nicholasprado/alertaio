@@ -1,3 +1,0 @@
---color
---require ./spec/helpers/spec_helper
---require ./spec/helpers/client
