@@ -6,7 +6,7 @@ setuptools.setup(
     name='alerta-snmptrap',
     version='5.0.0',
     description='Alerta script for SNMP traps',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Nick Satterly',
     author_email='nick.satterly@theguardian.com',

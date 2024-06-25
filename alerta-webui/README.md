@@ -1,7 +1,7 @@
 Alerta Web UI 7.0
 =================
 
-[![Actions Status](https://github.com/nicholasprado/alerta-io/alerta-webui/workflows/CI%20Tests/badge.svg)](https://github.com/nicholasprado/alerta-io/alerta-webui/actions) [![Slack chat](https://img.shields.io/badge/chat-on%20slack-blue?logo=slack)](https://slack.alerta.dev)
+[![Actions Status](https://github.com/nicholasprado/alertaio/alerta-webui/workflows/CI%20Tests/badge.svg)](https://github.com/nicholasprado/alertaio/alerta-webui/actions) [![Slack chat](https://img.shields.io/badge/chat-on%20slack-blue?logo=slack)](https://slack.alerta.dev)
 
 Version 7.0 of the Alerta web UI is a [VueJS](https://vuejs.org/) web app.
 
@@ -12,7 +12,7 @@ Installation
 
 To install the web console:
 
-    $ wget https://github.com/nicholasprado/alerta-io/alerta-webui/releases/latest/download/alerta-webui.tar.gz
+    $ wget https://github.com/nicholasprado/alertaio/alerta-webui/releases/latest/download/alerta-webui.tar.gz
     $ tar zxvf alerta-webui.tar.gz
     $ cd dist
     $ python3 -m http.server 8000

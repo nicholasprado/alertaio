@@ -6,7 +6,7 @@ setup(
     name='alerta-jira',
     version=version,
     description='Alerta plugin for create tasks in jira',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Alexandre Azedo',
     author_email='aazedo@gocontact.pt',

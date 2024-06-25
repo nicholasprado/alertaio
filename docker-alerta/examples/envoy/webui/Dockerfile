@@ -3,7 +3,7 @@ FROM node:14-alpine as build-stage
 RUN apk add --no-cache python3 py3-pip make g++
 RUN apk add --no-cache git
 WORKDIR /app
-ADD https://github.com/nicholasprado/alerta-io/alerta-webui/archive/master.tar.gz /tmp/webui.tar.gz
+ADD https://github.com/nicholasprado/alertaio/alerta-webui/archive/master.tar.gz /tmp/webui.tar.gz
 RUN tar zxvf /tmp/webui.tar.gz -C /app --strip-components=1
 RUN npm install
 COPY .env .

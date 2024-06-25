@@ -6,7 +6,7 @@ setup(
     name='alerta-statuscake',
     version=version,
     description='Alerta webhook for statuscake',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='Apache License 2.0',
     author='Matthieu Serrepuy',
     author_email='matthieu@serrepuy.fr',

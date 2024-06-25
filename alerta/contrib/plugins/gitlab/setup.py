@@ -6,7 +6,7 @@ setup(
     name='alerta-gitlab',
     version=version,
     description='Example Alerta plugin for GitLab Issues',
-    url='https://github.com/nicholasprado/alerta-io/alerta',
+    url='https://github.com/nicholasprado/alertaio/alerta',
     license='MIT',
     author='Nick Satterly',
     author_email='nick.satterly@gmail.com',

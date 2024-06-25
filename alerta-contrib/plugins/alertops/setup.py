@@ -6,7 +6,7 @@ setup(
     name='alerta-alertops',
     version=version,
     description='Alerta plugin for AlertOps',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='AlertOps',
     author='Kam Srikanth',
     author_email='kamleshs@alertops.com',

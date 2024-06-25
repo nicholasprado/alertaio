@@ -6,7 +6,7 @@ setup(
     name='alerta-routing',
     version=version,
     description='Alerta routing rules for blackout notifications',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='Apache License 2.0',
     author='Nick Satterly',
     author_email='nick.satterly@theguardian.com',

@@ -6,7 +6,7 @@ setup(
     name='alerta-transient',
     version=version,
     description='Example Alerta plugin for transient flapping alerts',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='Apache License 2.0',
     author='Your name',
     author_email='your.name@example.com',

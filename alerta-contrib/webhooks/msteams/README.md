@@ -14,7 +14,7 @@ Clone the GitHub repo and run:
 
 Or, to install remotely from GitHub run:
 
-    $ pip install git+https://github.com/nicholasprado/alerta-io/alerta-contrib.git#subdirectory=webhooks/msteams
+    $ pip install git+https://github.com/nicholasprado/alertaio/alerta-contrib.git#subdirectory=webhooks/msteams
 
 Note: If Alerta is installed in a python virtual environment then plugins
 need to be installed into the same environment for Alerta to dynamically
@@ -28,7 +28,7 @@ The custom webhook will be auto-detected and added to the list of available API 
 - Create apikey with _write:webhooks_ scope.
 - Put apikey to `MS_TEAMS_APIKEY` config.
 - Configure `MS_TEAMS_INBOUNDWEBHOOK_URL` to point to your alerta `/webhooks/msteams` url.
-- Configure msteams [plugin](https://github.com/nicholasprado/alerta-io/alerta-contrib/tree/master/plugins/msteams) `MS_TEAMS_PAYLOAD` to add potentialaction buttons to msteams
+- Configure msteams [plugin](https://github.com/nicholasprado/alertaio/alerta-contrib/tree/master/plugins/msteams) `MS_TEAMS_PAYLOAD` to add potentialaction buttons to msteams
 alerts. (Example in [example-payload.json.j2](../../plugins/msteams/example-payload.json.j2)
 
 Example Request

@@ -1,6 +1,6 @@
 FROM nginx:1.13
 
-ADD https://github.com/nicholasprado/alerta-io/angular-alerta-webui/archive/master.tar.gz /tmp/web.tar.gz
+ADD https://github.com/nicholasprado/alertaio/angular-alerta-webui/archive/master.tar.gz /tmp/web.tar.gz
 RUN tar zxvf /tmp/web.tar.gz -C /tmp && \
     rm -rf /usr/share/nginx/html && \
     mv /tmp/angular-alerta-webui-master/app /usr/share/nginx/html && \

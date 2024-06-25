@@ -6,7 +6,7 @@ setup(
     name='alerta-custom-backend',
     version=version,
     description='Alerta custom backend example',
-    url='https://github.com/nicholasprado/alerta-io/alerta',
+    url='https://github.com/nicholasprado/alertaio/alerta',
     license='Apache License 2.0',
     author='Victor Garcia',
     author_email='victor.garcia@datadope.io',

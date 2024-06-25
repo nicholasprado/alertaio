@@ -6,7 +6,7 @@ setup(
     name='alerta-logger',
     version=version,
     description='Alerta plugin for syslog logging',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Nick Satterly',
     author_email='nick.satterly@theguardian.com',

@@ -6,7 +6,7 @@ setup(
     name='alerta-mattermost',
     version=version,
     description='Alerta plugin for Mattermost',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Dmitrii Sitnikov (WWHW)',
     author_email='no-reply@wwhw.org',

@@ -6,7 +6,7 @@ setup(
     name='alerta-fail2ban',
     version=version,
     description='Alerta Webhook for Fail2Ban',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Milos Buncic',
     author_email='milosbuncic@gmail.com',

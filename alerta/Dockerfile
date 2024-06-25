@@ -7,8 +7,8 @@ ARG VERSION
 
 LABEL org.opencontainers.image.description="Alerta API (dev)" \
       org.opencontainers.image.created=$BUILD_DATE \
-      org.opencontainers.image.url="https://github.com/nicholasprado/alerta-io/alerta/pkgs/container/alerta-api" \
-      org.opencontainers.image.source="https://github.com/nicholasprado/alerta-io/alerta" \
+      org.opencontainers.image.url="https://github.com/nicholasprado/alertaio/alerta/pkgs/container/alerta-api" \
+      org.opencontainers.image.source="https://github.com/nicholasprado/alertaio/alerta" \
       org.opencontainers.image.version=$RELEASE \
       org.opencontainers.image.revision=$VERSION \
       org.opencontainers.image.licenses=Apache-2.0

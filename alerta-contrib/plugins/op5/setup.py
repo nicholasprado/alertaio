@@ -6,7 +6,7 @@ setup(
     name='alerta-op5',
     version=version,
     description='Alerta plugin for OP5 Monitor',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Anton Delitsch',
     author_email='anton@trugen.net',

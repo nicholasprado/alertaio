@@ -1,7 +1,7 @@
 Alerta Release 9.1
 ==================
 
-[![Actions Status](https://github.com/nicholasprado/alerta-io/alerta/workflows/CI%20Tests/badge.svg)](https://github.com/nicholasprado/alerta-io/alerta/actions)
+[![Actions Status](https://github.com/nicholasprado/alertaio/alerta/workflows/CI%20Tests/badge.svg)](https://github.com/nicholasprado/alertaio/alerta/actions)
 [![Slack chat](https://img.shields.io/badge/chat-on%20slack-blue?logo=slack)](https://slack.alerta.dev)
 [![Coverage Status](https://coveralls.io/repos/github/alerta/alerta/badge.svg?branch=master)](https://coveralls.io/github/alerta/alerta?branch=master)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alerta/alerta-web.svg)](https://hub.docker.com/r/alerta/alerta-web)
@@ -46,7 +46,7 @@ To install the Alerta server and client run:
 
 To install the web console run:
 
-    $ wget https://github.com/nicholasprado/alerta-io/alerta-webui/releases/latest/download/alerta-webui.tar.gz
+    $ wget https://github.com/nicholasprado/alertaio/alerta-webui/releases/latest/download/alerta-webui.tar.gz
     $ tar zxvf alerta-webui.tar.gz
     $ cd dist
     $ python3 -m http.server 8000
@@ -54,7 +54,7 @@ To install the web console run:
     >> browse to http://localhost:8000
 
 ### Docker
-Alerta and MongoDB can also run using Docker containers, see [alerta/docker-alerta](https://github.com/nicholasprado/alerta-io/docker-alerta).
+Alerta and MongoDB can also run using Docker containers, see [alerta/docker-alerta](https://github.com/nicholasprado/alertaio/docker-alerta).
 
 Configuration
 -------------
@@ -127,9 +127,9 @@ To run a single test run something like:
 Cloud Deployment
 ----------------
 
-Alerta can be deployed to the cloud easily using Heroku <https://github.com/nicholasprado/alerta-io/heroku-api-alerta>,
-AWS EC2 <https://github.com/nicholasprado/alerta-io/alerta-cloudformation>, or Google Cloud Platform
-<https://github.com/nicholasprado/alerta-io/gcloud-api-alerta>
+Alerta can be deployed to the cloud easily using Heroku <https://github.com/nicholasprado/alertaio/heroku-api-alerta>,
+AWS EC2 <https://github.com/nicholasprado/alertaio/alerta-cloudformation>, or Google Cloud Platform
+<https://github.com/nicholasprado/alertaio/gcloud-api-alerta>
 
 License
 -------

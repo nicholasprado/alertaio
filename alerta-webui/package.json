@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicholasprado/alerta-io/alerta-webui.git"
+    "url": "git+https://github.com/nicholasprado/alertaio/alerta-webui.git"
   },
   "keywords": [
     "alerta",

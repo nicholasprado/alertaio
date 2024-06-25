@@ -6,7 +6,7 @@ setup(
     name='alerta-ding',
     version=version,
     description='Example Alerta plugin for test alerts',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='Apache License 2.0',
     author='Komal Gupta',
     author_email='komalg038@gmail.com',

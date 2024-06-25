@@ -17,7 +17,7 @@ Clone the GitHub repo and run:
 
 Or, to install remotely from GitHub run:
 
-    $ pip install git+https://github.com/nicholasprado/alerta-io/alerta-contrib.git#subdirectory=plugins/msteams
+    $ pip install git+https://github.com/nicholasprado/alertaio/alerta-contrib.git#subdirectory=plugins/msteams
 
 Note: If Alerta is installed in a python virtual environment then plugins
 need to be installed into the same environment for Alerta to dynamically

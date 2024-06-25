@@ -16,20 +16,20 @@ Integrations
 
   * [Consul](integrations/consul)
   * [Fail2Ban](integrations/fail2ban)
-  * [Kibana](https://github.com/nicholasprado/alerta-io/kibana-alerta)
+  * [Kibana](https://github.com/nicholasprado/alertaio/kibana-alerta)
   * [Mailer](integrations/mailer)
-  * [Nagios](https://github.com/nicholasprado/alerta-io/nagios-alerta)
+  * [Nagios](https://github.com/nicholasprado/alertaio/nagios-alerta)
   * [OpsWeekly](integrations/opsweekly)
   * [Pinger](integrations/pinger)
-  * [Prometheus](https://github.com/nicholasprado/alerta-io/prometheus-config)
-  * [Riemann](https://github.com/nicholasprado/alerta-io/riemann-alerta)
+  * [Prometheus](https://github.com/nicholasprado/alertaio/prometheus-config)
+  * [Riemann](https://github.com/nicholasprado/alertaio/riemann-alerta)
   * [SNMPTrap](integrations/snmptrap)
-  * [Sensu](https://github.com/nicholasprado/alerta-io/sensu-alerta)
+  * [Sensu](https://github.com/nicholasprado/alertaio/sensu-alerta)
   * [Amazon SQS](integrations/sqs)
   * [Supervisor](integrations/supervisor)
   * [Syslog](integrations/syslog)
   * [URLmon](integrations/urlmon)
-  * [Zabbix](https://github.com/nicholasprado/alerta-io/zabbix-alerta)
+  * [Zabbix](https://github.com/nicholasprado/alertaio/zabbix-alerta)
 
 Plugins
 -------
@@ -65,23 +65,23 @@ Plugins
 Webhooks
 --------
 
-  * [AWS CloudWatch](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/cloudwatch.py)
+  * [AWS CloudWatch](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/cloudwatch.py)
   * [Azure Monitor](webhooks/azuremonitor)
   * [Fail2Ban](webhooks/fail2ban)
-  * [Grafana](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/grafana.py)
-  * [Graylog](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/graylog.py)
+  * [Grafana](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/grafana.py)
+  * [Graylog](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/graylog.py)
   * [Mailgun](webhooks/mailgun)
   * [MS Teams](webhooks/msteams)
-  * [New Relic](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/newrelic.py)
-  * [PagerDuty](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/pagerduty.py)
-  * [Pingdom](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/pingdom.py)
-  * [Prometheus Alertmanager](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/prometheus.py)
-  * [Riemann](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/riemann.py)
+  * [New Relic](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/newrelic.py)
+  * [PagerDuty](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/pagerduty.py)
+  * [Pingdom](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/pingdom.py)
+  * [Prometheus Alertmanager](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/prometheus.py)
+  * [Riemann](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/riemann.py)
   * [Sentry](webhooks/sentry)
-  * [Server Density](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/serverdensity.py)
-  * [Slack](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/slack.py)
-  * [Stackdriver](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/stackdriver.py)
-  * [Telegram](https://github.com/nicholasprado/alerta-io/alerta/blob/master/alerta/webhooks/telegram.py)
+  * [Server Density](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/serverdensity.py)
+  * [Slack](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/slack.py)
+  * [Stackdriver](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/stackdriver.py)
+  * [Telegram](https://github.com/nicholasprado/alertaio/alerta/blob/master/alerta/webhooks/telegram.py)
 
 Tests
 -----

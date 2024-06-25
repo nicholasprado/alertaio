@@ -6,7 +6,7 @@ setup(
     name='alerta-twilio',
     version=version,
     description='Alerta plugin for Twilio SMS',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Nick Satterly',
     author_email='nick.satterly@theguardian.com',

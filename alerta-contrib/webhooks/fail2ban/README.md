@@ -17,7 +17,7 @@ python setup.py install
 Or, to install remotely from GitHub run:
 
 ```plain
-pip install git+https://github.com/nicholasprado/alerta-io/alerta-contrib.git#subdirectory=webhooks/fail2ban
+pip install git+https://github.com/nicholasprado/alertaio/alerta-contrib.git#subdirectory=webhooks/fail2ban
 ```
 
 **Note:** If Alerta is installed in a python virtual environment then plugins

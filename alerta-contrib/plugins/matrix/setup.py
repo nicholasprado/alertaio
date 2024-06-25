@@ -6,7 +6,7 @@ setup(
     name='alerta-matrix',
     version=version,
     description='Alerta plugin for Matrix',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Magnus Walbeck',
     author_email='mw@mwalbeck.org',

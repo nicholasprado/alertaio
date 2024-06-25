@@ -6,7 +6,7 @@ setup(
     name='alerta-pubsub',
     version=version,
     description='Alerta plugin for sending alerts to pubsub',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Arindam Choudhury',
     author_email='arindam@live.com',

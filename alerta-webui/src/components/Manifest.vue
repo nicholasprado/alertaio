@@ -27,7 +27,7 @@
         <span class="hidden-sm-and-down">{{ props.item.revision }}</span>
         <span class="show-md-and-up">{{ props.item.revision.substring(0, 7) }}</span>
         <a
-          :href="`https://github.com/nicholasprado/alerta-io/alerta/commit/${props.item.revision}`"
+          :href="`https://github.com/nicholasprado/alertaio/alerta/commit/${props.item.revision}`"
           target="_blank"
         >
           <v-tooltip right>

@@ -6,7 +6,7 @@ setup(
     name='alerta-consul',
     version=version,
     description='Send emails from Alerta',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Marco Supino',
     author_email='marco@supino.org',

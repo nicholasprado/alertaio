@@ -12,7 +12,7 @@ ENV MIBS +ALL
 ADD snmptrapd.conf.sh /snmptrapd.conf.sh
 RUN /snmptrapd.conf.sh
 
-RUN pip3 install git+https://github.com/nicholasprado/alerta-io/alerta-contrib.git#subdirectory=integrations/snmptrap
+RUN pip3 install git+https://github.com/nicholasprado/alertaio/alerta-contrib.git#subdirectory=integrations/snmptrap
 
 EXPOSE 162/udp
 

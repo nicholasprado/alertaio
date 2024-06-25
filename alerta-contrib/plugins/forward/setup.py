@@ -6,7 +6,7 @@ setup(
     name='alerta-forward',
     version=version,
     description='Alerta plugin for forwarding alerts',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='SKob',
     author_email='skob@me.com',

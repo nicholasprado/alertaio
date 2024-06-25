@@ -28,7 +28,7 @@ Clone the GitHub repo and run:
 
 Or, to install remotely from GitHub run:
 
-    $ pip install git+https://github.com/nicholasprado/alerta-io/alerta-contrib.git#subdirectory=integrations/mailer
+    $ pip install git+https://github.com/nicholasprado/alertaio/alerta-contrib.git#subdirectory=integrations/mailer
 
 Configuration
 -------------

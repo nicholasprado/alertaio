@@ -6,7 +6,7 @@ setup(
     name='alerta-query',
     version=version,
     description='Alerta Generic Webhook by query parameters',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Pablo Villaverde',
     author_email='pvillaverdecastro@gmail.com',

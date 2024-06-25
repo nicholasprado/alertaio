@@ -6,7 +6,7 @@ setup(
     name='alerta-msteamswebhook',
     version=version,
     description='Alerta webhook for MS Teams',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Jarno Huuskonen',
     author_email='jjh74@users.noreply.github.com',

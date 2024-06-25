@@ -10,5 +10,5 @@ Some example plugins that can be used as a starting point for custom development
     will reject alerts that have repeatedly changed from an alert severity
     to `normal` within a short period of time. eg. more than twice in 2 minutes
 
-See the [alerta contrib repo](https://github.com/nicholasprado/alerta-io/alerta-contrib/tree/master/plugins) for
+See the [alerta contrib repo](https://github.com/nicholasprado/alertaio/alerta-contrib/tree/master/plugins) for
 a comprehensive list of plugins that can be used as-is or as examples for your own environment.

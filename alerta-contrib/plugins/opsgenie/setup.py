@@ -6,7 +6,7 @@ setup(
     name='alerta-opsgenie',
     version=version,
     description='Alerta plugin for OpsGenie',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Kurt Westerfeld',
     author_email='kurt.westerfeld@gmail.com',

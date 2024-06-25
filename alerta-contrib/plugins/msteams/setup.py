@@ -6,7 +6,7 @@ setup(
     name='alerta-msteams',
     version=version,
     description='Alerta plugin for Microsoft Teams',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Anton Delitsch',
     author_email='anton@trugen.net',

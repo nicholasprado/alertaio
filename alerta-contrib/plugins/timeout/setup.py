@@ -6,7 +6,7 @@ setup(
     name='alerta-timeout',
     version=version,
     description='Alerta plugin to permit a global custom timeout to be supplied via alerta config',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Thomas Collins',
     author_email='thomaswcollins@gmail.com',

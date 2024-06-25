@@ -6,7 +6,7 @@ setup(
     name='alerta-sentry',
     version=version,
     description='Alerta webhook for Sentry',
-    url='https://github.com/nicholasprado/alerta-io/alerta-contrib',
+    url='https://github.com/nicholasprado/alertaio/alerta-contrib',
     license='MIT',
     author='Nick Satterly',
     author_email='nick.satterly@gmail.com',
