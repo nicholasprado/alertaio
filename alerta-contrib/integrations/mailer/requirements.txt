@@ -1,4 +1,0 @@
-alerta>=5.0.2
-jinja2
-kombu
-redis
