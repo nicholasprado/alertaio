@@ -8,6 +8,6 @@ entries:
     digest: 867519f0bcbb927df498f34d42c16840283b244a6205572dae49ab24e16a18a1
     name: alerta
     urls:
-    - https://nicholasprado.github.io/releases/download/alerta/alerta-0.4.0.tgz
+    - https://github.com/nicholasprado/alertaio/blob/855c0f4587dc6842fb71fc980fb85a2aa0c8a297/releases/download/alerta/alerta-0.4.0.tgz
     version: 0.4.0
 generated: "2024-06-25T17:20:40.422272133-03:00"
