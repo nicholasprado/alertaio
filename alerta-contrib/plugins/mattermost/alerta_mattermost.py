@@ -32,7 +32,7 @@ class ServiceIntegration(PluginBase):
         return {
             'security': ':closed_lock_with_key:',
             'critical': ':bangbang:',
-            'major': ':exclamation:',
+            'high': ':exclamation:',
             'minor': ':grey_exclamation:',
             'warning': ':warning:',
             'informational': ':info:',

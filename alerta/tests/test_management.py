@@ -20,7 +20,7 @@ class ManagementTestCase(unittest.TestCase):
             # 'ACK_TIMEOUT': 2,
             # 'SHELVE_TIMEOUT': 3,
             'SERVER_VERSION': 'off',
-            # 'SERVER_VERSION': 'major'
+            # 'SERVER_VERSION': 'high'
         }
 
         with mod_env(
@@ -42,7 +42,7 @@ class ManagementTestCase(unittest.TestCase):
             'resource': random_resource(),
             'environment': 'Production',
             'service': ['Network'],
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'tags': ['foo'],
             'attributes': {'foo': 'abc def', 'bar': 1234, 'baz': False},

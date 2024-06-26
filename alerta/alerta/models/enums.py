@@ -7,7 +7,7 @@ class Severity(StrEnum):
 
     Security = 'security'
     Critical = 'critical'
-    Major = 'major'
+    Major = 'high'
     Minor = 'minor'
     Warning = 'warning'
     Indeterminate = 'indeterminate'

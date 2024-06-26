@@ -21,7 +21,7 @@ class CloudWatchWebhook(WebhookBase):
     @staticmethod
     def cw_state_to_severity(state: str) -> str:
         if state == 'ALARM':
-            return 'major'
+            return 'high'
         elif state == 'INSUFFICIENT_DATA':
             return 'warning'
         elif state == 'OK':

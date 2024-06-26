@@ -19,7 +19,7 @@ class ApiResponseTestCase(unittest.TestCase):
             'resource': 'node404',
             'event': 'node_down',
             'environment': 'Production',
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'service': ['Core', 'Web', 'Network'],
             'group': 'Network',

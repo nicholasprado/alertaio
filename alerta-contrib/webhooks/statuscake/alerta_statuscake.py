@@ -10,7 +10,7 @@ class StatusCakeWebhook(WebhookBase):
 
     def incoming(self, query_string, payload):
         alert_severity = os.environ.get(
-            'STATUSCAKE_DEFAULT_ALERT_SEVERITY', 'major')
+            'STATUSCAKE_DEFAULT_ALERT_SEVERITY', 'high')
 
         # If the statuscake username and apikey are provided  # noqa: E265
         # We can validate that the webhook call is valid

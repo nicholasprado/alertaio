@@ -136,7 +136,7 @@ class HeartbeatsTestCase(unittest.TestCase):
             'resource': hb.origin,
             'event': 'HeartbeatFail',
             'environment': 'Production',
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['HeartbeatFail', 'HeartbeatSlow', 'HeartbeatOK'],
             'service': ['Test'],
             'group': 'Alerta',

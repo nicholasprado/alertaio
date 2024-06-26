@@ -45,8 +45,8 @@ def oembed(format):
             max = 'warning'
         if severity_count.get('minor', 0) > 0:
             max = 'minor'
-        if severity_count.get('major', 0) > 0:
-            max = 'major'
+        if severity_count.get('high', 0) > 0:
+            max = 'high'
         if severity_count.get('critical', 0) > 0:
             max = 'critical'
 

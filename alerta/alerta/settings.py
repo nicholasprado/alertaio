@@ -233,7 +233,7 @@ CLIPBOARD_TEMPLATE = ''
 
 # Alert Status Indicators
 ASI_SEVERITY = [
-    'critical', 'major', 'minor', 'warning', 'indeterminate', 'informational'
+    'critical', 'high', 'minor', 'warning', 'indeterminate', 'informational'
 ]
 ASI_QUERIES = [
     {'text': 'Production', 'query': [['environment', 'Production']]},

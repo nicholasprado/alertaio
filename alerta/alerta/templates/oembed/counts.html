@@ -6,7 +6,7 @@
       {% endif %}
       <tr>
         <td class="{{ 'alerta-severity-critical' if counts['critical'] }}"><b>{{ counts['critical'] }}</b></td>
-        <td class="{{ 'alerta-severity-major' if counts['major'] }}"><b>{{ counts['major'] }}</b></td>
+        <td class="{{ 'alerta-severity-major' if counts['high'] }}"><b>{{ counts['high'] }}</b></td>
         <td class="{{ 'alerta-severity-minor' if counts['minor'] }}"><b>{{ counts['minor'] }}</b></td>
         <td class="{{ 'alerta-severity-warning' if counts['warning'] }}"><b>{{ counts['warning'] }}</b></td>
         <td class="{{ 'alerta-severity-informational' if counts['informational'] }}"><b>{{ counts['informational'] }}</b></td>

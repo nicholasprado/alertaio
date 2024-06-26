@@ -50,7 +50,7 @@ class Syslog(PluginBase):
 
         if alert.severity == 'critical':
             level = logging.CRITICAL
-        elif alert.severity in ['major', 'minor']:
+        elif alert.severity in ['high', 'minor']:
             level = logging.ERROR
         elif alert.severity == 'warning':
             level = logging.WARNING

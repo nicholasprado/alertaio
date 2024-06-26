@@ -49,7 +49,7 @@ class AggregationsTestCase(unittest.TestCase):
             'environment': 'Production',
             'service': ['Network', 'Shared'],
             'group': 'Network',
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'tags': ['baz'],
             'timeout': 40
@@ -183,7 +183,7 @@ class AggregationsTestCase(unittest.TestCase):
                 'severityCounts': {
                     'cleared': 1,
                     'critical': 2,
-                    'major': 1,
+                    'high': 1,
                     'normal': 1,
                     'ok': 2,
                     'warning': 1
@@ -223,7 +223,7 @@ class AggregationsTestCase(unittest.TestCase):
                 'severityCounts': {
                     'cleared': 1,
                     'critical': 2,
-                    'major': 1,
+                    'high': 1,
                     'normal': 1,
                     'ok': 2,
                     'warning': 1
@@ -239,7 +239,7 @@ class AggregationsTestCase(unittest.TestCase):
                 'service': 'Shared',
                 'severityCounts': {
                     'critical': 1,
-                    'major': 1
+                    'high': 1
                 },
                 'statusCounts': {
                     'open': 2

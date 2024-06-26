@@ -114,7 +114,7 @@ class WorkerThread(threading.Thread):
                 value = '%s/%s ms' % tuple(rtt)
             elif rc == PING_FAILED:
                 event = 'PingFailed'
-                severity = 'major'
+                severity = 'high'
                 text = 'Node did not respond to ping or timed out within %s seconds' % PING_MAX_TIMEOUT
                 value = '%s%% packet loss' % loss
             elif rc == PING_ERROR:

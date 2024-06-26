@@ -16,7 +16,7 @@ class MailgunWebhook(WebhookBase):
         try:
             severity = query_string['severity']
         except Exception:
-            severity = 'major'
+            severity = 'high'
         try:
             group = query_string['group']
         except Exception:

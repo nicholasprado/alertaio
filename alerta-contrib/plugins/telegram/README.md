@@ -53,9 +53,9 @@ BLACKOUT_DURATION = 86400   # default=3600 ie. 1 hour
 
 To enable/disable sound on notifications([disable_notification](https://core.telegram.org/bots/api#sendmessage)) use `TELEGRAM_SOUND_NOTIFICATION_SEVERITY`:
 ```python
-# Only severities 'security', 'critical' and 'major' have disable_notification=False
+# Only severities 'security', 'critical' and 'high' have disable_notification=False
 # all other severities have disable_notification=True
-TELEGRAM_SOUND_NOTIFICATION_SEVERITY = ['security', 'critical', 'major']
+TELEGRAM_SOUND_NOTIFICATION_SEVERITY = ['security', 'critical', 'high']
 ```
 If `TELEGRAM_SOUND_NOTIFICATION_SEVERITY` is unset then all telegram
 notifications have [disable_notification](https://core.telegram.org/bots/api#sendmessage)=False

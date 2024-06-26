@@ -31,7 +31,7 @@
  *    - hostname: alert 'environment' and 'resource' attributes
  *    - service: alert 'event' attribute
  *    - output: alert 'service' and 'text' attributes
- *    - state: alert 'severity' attribute eg. 'critical', 'major', 'minor', 'warning', 'normal'
+ *    - state: alert 'severity' attribute eg. 'critical', 'high', 'minor', 'warning', 'normal'
  */
 
 function getOnCallNotifications($on_call_name, $provider_global_config, $provider_team_config, $start, $end) {

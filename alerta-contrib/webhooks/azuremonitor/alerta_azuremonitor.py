@@ -6,7 +6,7 @@ from dateutil.parser import parse as parse_date
 
 SEVERITY_MAP = {
     '0': 'critical',       # Critical
-    '1': 'major',          # Error
+    '1': 'high',          # Error
     '2': 'warning',        # Warning
     '3': 'informational',  # Informational
     '4': 'debug'           # Verbose

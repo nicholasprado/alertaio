@@ -22,7 +22,7 @@ except Exception as e:
 MS_TEAMS_COLORS_MAP = app.config.get('MS_TEAMS_COLORS_MAP', {})
 MS_TEAMS_DEFAULT_COLORS_MAP = {'security': '000000',
                                'critical': 'D8122A',
-                               'major': 'EA680F',
+                               'high': 'EA680F',
                                'minor': 'FFBE1E',
                                'warning': '1E90FF'}
 MS_TEAMS_DEFAULT_COLOR = '00AA5A'

@@ -25,7 +25,7 @@ DASHBOARD_URL = os.environ.get(
 DEFAULT_SEVERITY_MAP = {
     'security': '#000000',  # black
     'critical': '#FF0000',  # red
-    'major': '#FFA500',  # orange
+    'high': '#FFA500',  # orange
     'minor': '#FFFF00',  # yellow
     'warning': '#1E90FF',  # blue
     'informational': '#808080',  # gray

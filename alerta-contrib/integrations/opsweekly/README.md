@@ -72,7 +72,7 @@ Returns 0 or more notifications as array()
     - `hostname`: alert 'environment' and 'resource' attributes
     - `service`: alert 'event' attribute
     - `output`: alert 'service' and 'text' attributes
-    - `state`: alert 'severity' attribute eg. 'critical', 'major', 'minor', 'warning', 'normal'
+    - `state`: alert 'severity' attribute eg. 'critical', 'high', 'minor', 'warning', 'normal'
 
 Testing
 -------

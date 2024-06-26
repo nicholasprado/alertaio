@@ -27,7 +27,7 @@ class BlackoutsTestCase(unittest.TestCase):
             'resource': 'node404',
             'event': 'node_down',
             'environment': 'Production',
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'service': ['Core', 'Web', 'Network'],
             'group': 'Network',
@@ -73,7 +73,7 @@ class BlackoutsTestCase(unittest.TestCase):
             'resource': 'net03',
             'environment': 'Production',
             'service': ['Network'],
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'origin': 'foo/bar',
             'timeout': 40
@@ -221,7 +221,7 @@ class BlackoutsTestCase(unittest.TestCase):
         self.assertEqual(data['alert']['status'], 'blackout')
 
         # increase severity alert should be status=blackout
-        self.prod_alert['severity'] = 'major'
+        self.prod_alert['severity'] = 'high'
         response = self.client.post('/alert', data=json.dumps(self.prod_alert), headers=self.headers)
         self.assertEqual(response.status_code, 201)
         data = json.loads(response.data.decode('utf-8'))
@@ -262,7 +262,7 @@ class BlackoutsTestCase(unittest.TestCase):
         self.assertEqual(data['alert']['status'], 'closed')
 
         # non-normal severity alert should be status=blackout (again)
-        self.prod_alert['severity'] = 'major'
+        self.prod_alert['severity'] = 'high'
         response = self.client.post('/alert', data=json.dumps(self.prod_alert), headers=self.headers)
         self.assertEqual(response.status_code, 201)
         data = json.loads(response.data.decode('utf-8'))
@@ -365,7 +365,7 @@ class BlackoutsTestCase(unittest.TestCase):
         response = self.client.post('/alert', data=json.dumps(self.major_alert), headers=self.headers)
         self.assertEqual(response.status_code, 201)
         data = json.loads(response.data.decode('utf-8'))
-        self.assertEqual(data['alert']['severity'], 'major')
+        self.assertEqual(data['alert']['severity'], 'high')
         self.assertEqual(data['alert']['status'], 'blackout')
 
         # clear 3rd alert => normal, closed

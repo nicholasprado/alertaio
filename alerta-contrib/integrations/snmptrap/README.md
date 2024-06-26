@@ -142,7 +142,7 @@ class OracleTrapTransformer(PluginBase):
         if alert.attributes['trapvars']['_10'] in ['Serious', 'Critical']: # oraEM4AlertSeverity
             alert.severity = 'critical'
         elif alert.attributes['trapvars']['_10'] == 'Error'
-            alert.severity = 'major'
+            alert.severity = 'high'
         else:
             alert.severity = 'normal'
 

@@ -55,7 +55,7 @@ class ForwarderTestCase(unittest.TestCase):
             'resource': self.resource,
             'environment': 'Production',
             'service': ['Network'],
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'timeout': 40
         }
@@ -65,7 +65,7 @@ class ForwarderTestCase(unittest.TestCase):
             'resource': self.resource,
             'environment': 'Production',
             'service': ['Network'],
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'timeout': 40
         }

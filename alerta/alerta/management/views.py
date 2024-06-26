@@ -39,7 +39,7 @@ started = time.time() * 1000
 def version_info():
     if current_app.config['SERVER_VERSION'] == 'full':
         return __version__
-    elif current_app.config['SERVER_VERSION'] == 'major':
+    elif current_app.config['SERVER_VERSION'] == 'high':
         return __version__.split('.')[0]
     elif current_app.config['SERVER_VERSION'] == 'off':
         return

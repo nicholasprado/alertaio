@@ -110,7 +110,7 @@ class WorkerThread(threading.Thread):
 
             if not status:
                 event = 'HttpConnectionError'
-                severity = 'major'
+                severity = 'high'
                 value = reason
                 text = 'Error during connection or data transfer (timeout=%d).' % MAX_TIMEOUT
 
@@ -123,7 +123,7 @@ class WorkerThread(threading.Thread):
                         status, status_regex, rtt)
                 else:
                     event = 'HttpResponseRegexError'
-                    severity = 'major'
+                    severity = 'high'
                     value = '%s (%d)' % (description, status)
                     text = 'HTTP server responded with status code %d that failed to match "%s"' % (
                         status, status_regex)
@@ -158,7 +158,7 @@ class WorkerThread(threading.Thread):
 
             elif 500 <= status <= 599:
                 event = 'HttpServerError'
-                severity = 'major'
+                severity = 'high'
                 value = '%s (%d)' % (description, status)
                 text = 'HTTP server responded with status code %d in %dms' % (
                     status, rtt)
@@ -271,7 +271,7 @@ class WorkerThread(threading.Thread):
                 elif days_left < datetime.timedelta(days=SSL_DAYS) and days_left > datetime.timedelta(days=SSL_DAYS_PANIC):
                     text = 'HTTPS cert for {} will expire at {}'.format(
                         check['resource'], days_left)
-                    severity = 'major'
+                    severity = 'high'
                 elif days_left <= datetime.timedelta(days=SSL_DAYS_PANIC):
                     text = 'HTTPS cert for {} will expire at {}'.format(
                         check['resource'], days_left)

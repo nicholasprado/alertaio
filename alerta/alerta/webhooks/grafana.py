@@ -23,7 +23,7 @@ def parse_grafana(args: ImmutableMultiDict, alert: JSON, match: Dict[str, Any]) 
 
     # get values from request params
     environment = args.get('environment', current_app.config['DEFAULT_ENVIRONMENT'])
-    alerting_severity = args.get('severity', 'major')
+    alerting_severity = args.get('severity', 'high')
     service = args.getlist('service') or ['Grafana']
     group = args.get('group', 'Performance')
     customer = args.get('customer', None)

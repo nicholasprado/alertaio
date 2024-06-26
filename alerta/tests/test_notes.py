@@ -22,7 +22,7 @@ class AlertNotesTestCase(unittest.TestCase):
             'resource': 'node404',
             'event': 'node_down',
             'environment': 'Production',
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'service': ['Core', 'Web', 'Network'],
             'group': 'Network',
@@ -64,7 +64,7 @@ class AlertNotesTestCase(unittest.TestCase):
             'resource': 'net03',
             'environment': 'Production',
             'service': ['Network'],
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'timeout': 40
         }
@@ -131,7 +131,7 @@ class AlertNotesTestCase(unittest.TestCase):
         self.assertEqual(data['note']['user'], 'admin@alerta.io')
         self.assertEqual(
             sorted(data['note']['attributes']),
-            sorted({'resource': 'node404', 'event': 'node_down', 'environment': 'Production', 'severity': 'major', 'status': 'open'})
+            sorted({'resource': 'node404', 'event': 'node_down', 'environment': 'Production', 'severity': 'high', 'status': 'open'})
         )
         self.assertEqual(data['note']['type'], 'alert')
         self.assertIsNotNone(data['note']['createTime'])
@@ -162,7 +162,7 @@ class AlertNotesTestCase(unittest.TestCase):
         self.assertEqual(data['note']['user'], 'admin@alerta.io')
         self.assertEqual(
             sorted(data['note']['attributes']),
-            sorted({'resource': 'node404', 'event': 'node_down', 'environment': 'Production', 'severity': 'major', 'status': 'open'})
+            sorted({'resource': 'node404', 'event': 'node_down', 'environment': 'Production', 'severity': 'high', 'status': 'open'})
         )
         self.assertEqual(data['note']['type'], 'alert')
         self.assertIsNotNone(data['note']['createTime'])

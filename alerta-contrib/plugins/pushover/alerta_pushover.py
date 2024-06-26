@@ -28,7 +28,7 @@ PUSHOVER_BADGE = -2  # no notification
 # See https://pushover.net/api#priority
 PRIORITY_MAP = {
     'critical': PUSHOVER_EMERG,
-    'major': PUSHOVER_HIGH,
+    'high': PUSHOVER_HIGH,
     'minor': PUSHOVER_NORMAL,
     'warning': PUSHOVER_LOW
 }

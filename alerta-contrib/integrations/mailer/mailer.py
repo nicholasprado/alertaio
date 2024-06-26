@@ -118,7 +118,7 @@ class FanoutConsumer(ConsumerMixin):
     def on_message(self, body, message):
         sevs = list(OPTIONS['severities'])
         if not sevs:
-            sevs = ['critical', 'major']
+            sevs = ['critical', 'high']
 
         try:
             alert = Alert.parse(body)

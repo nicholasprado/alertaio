@@ -21,7 +21,7 @@ class QueryWebhook(WebhookBase):
         try:
             severity = query_string['severity']
         except Exception:
-            severity = 'major'
+            severity = 'high'
             # group
         try:
             group = query_string['group']

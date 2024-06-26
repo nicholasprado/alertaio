@@ -57,7 +57,7 @@ class AlertsTestCase(unittest.TestCase):
             'resource': self.resource,
             'environment': 'Production',
             'service': ['Network', 'Shared'],
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'timeout': 40
         }

@@ -44,7 +44,7 @@ class ActionsTestCase(unittest.TestCase):
             'resource': self.resource,
             'environment': 'Production',
             'service': ['Network'],
-            'severity': 'major',
+            'severity': 'high',
             'correlate': ['node_down', 'node_marginal', 'node_up'],
             'timeout': 40
         }
@@ -114,7 +114,7 @@ class ActionsTestCase(unittest.TestCase):
         response = self.client.get('/alert/' + alert_id)
         self.assertEqual(response.status_code, 200)
         data = json.loads(response.data.decode('utf-8'))
-        self.assertEqual(data['alert']['severity'], 'major')
+        self.assertEqual(data['alert']['severity'], 'high')
         self.assertEqual(data['alert']['status'], 'ack')
 
         # un-ack alert
@@ -124,7 +124,7 @@ class ActionsTestCase(unittest.TestCase):
         response = self.client.get('/alert/' + alert_id)
         self.assertEqual(response.status_code, 200)
         data = json.loads(response.data.decode('utf-8'))
-        self.assertEqual(data['alert']['severity'], 'major')
+        self.assertEqual(data['alert']['severity'], 'high')
         self.assertEqual(data['alert']['status'], 'open')
 
         # close alert
@@ -144,7 +144,7 @@ class ActionsTestCase(unittest.TestCase):
         response = self.client.get('/alert/' + alert_id)
         self.assertEqual(response.status_code, 200)
         data = json.loads(response.data.decode('utf-8'))
-        self.assertEqual(data['alert']['severity'], 'major')
+        self.assertEqual(data['alert']['severity'], 'high')
         self.assertEqual(data['alert']['status'], alarm_model.DEFAULT_STATUS)
 
     def test_unwind_actions(self):

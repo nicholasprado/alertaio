@@ -61,7 +61,7 @@ SLACK_SEND_ON_ACK = os.environ.get(
 SLACK_SEVERITY_MAP = app.config.get('SLACK_SEVERITY_MAP', {})
 SLACK_DEFAULT_SEVERITY_MAP = {'security': '#000000',  # black
                               'critical': '#FF0000',  # red
-                              'major': '#FFA500',  # orange
+                              'high': '#FFA500',  # orange
                               'minor': '#FFFF00',  # yellow
                               'warning': '#1E90FF',  # blue
                               'informational': '#808080',  # gray
